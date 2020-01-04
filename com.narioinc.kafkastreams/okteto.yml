@@ -1,0 +1,8 @@
+name: com-narioinc-kafkastreams
+image: okteto/maven:latest
+command:
+- bash
+workdir: /okteto
+forward:
+- 8080:8080
+- 8088:8088
